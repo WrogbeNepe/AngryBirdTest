@@ -1,7 +1,7 @@
 var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
-// load images
+// images to load
 
 var bird = new Image();
 var bg = new Image();
@@ -16,7 +16,7 @@ pipeNorth.src = "images/pipeNorth.png";
 pipeSouth.src = "images/pipeSouth.png";
 
 
-// some variables
+// code variables
 
 var gap = 85;
 var constant;
